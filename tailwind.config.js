@@ -1,12 +1,14 @@
+// @type {import('tailwindcss').Config}
 module.exports = {
   content: [
     './pages/**/*.{js,ts,jsx,tsx}',
     './components/**/*.{js,ts,jsx,tsx}',
   ],
+  darkMode: 'media',
   theme: {
     extend: {
       colors: {
-        blue: {
+        red: {
           50: '#EFF6FF',
           100: '#DBEAFE',
           200: '#BFDBFE',
@@ -18,7 +20,7 @@ module.exports = {
           800: '#1E40AF',
           900: '#1D254A',
         },
-        gray: {
+        red: {
           50: '#FAFAFA',
           100: '#F2F2F2',
           200: '#E7E7E7',

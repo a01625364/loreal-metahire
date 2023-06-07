@@ -1,6 +1,17 @@
+// Package Imports
 import Document, { Html, Head, Main, NextScript } from 'next/document';
 
-import Favicons from '../components/Favicons';
+// Component Imports
+
+// Config Imports
+
+// Custom Hook Imports
+
+// Helper Imports
+
+// Icon Imports
+
+// Exported Component
 
 class MyDocument extends Document {
   static async getInitialProps(ctx) {
@@ -11,10 +22,8 @@ class MyDocument extends Document {
   render() {
     return (
       <Html lang='es'>
-        <Head>
-          <Favicons />
-        </Head>
-        <body className='bg-white'>
+        <Head />
+        <body className='bg-gray-50'>
           <Main />
           <NextScript />
         </body>

@@ -1,4 +1,17 @@
-export default function Favicons() {
+// Package Imports
+
+// Component Imports
+
+// Config Imports
+
+// Custom Hook Imports
+
+// Helper Imports
+
+// Icon Imports
+
+// Exported Component
+export const Favicons = () => {
   return (
     <>
       <link
@@ -95,4 +108,5 @@ export default function Favicons() {
       />
     </>
   );
-}
+};
+export default Favicons;
